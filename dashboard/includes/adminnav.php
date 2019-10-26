@@ -21,6 +21,9 @@
                                 <a href="./view.php">View Stocks*</a>
                             </li>
 							<li>
+								<a href="./Download.php">Download Stocks</a>
+							</li>
+							<li>
                                 <a href="./add1.php">Add Items</a>
                             </li> 
 							<li>
@@ -29,8 +32,9 @@
 							<li>
                                 <a href="./money.php" target="_blank">Monthly Sale Details</a>
                             </li> 
+							
 							</ul>
-					</li>                     
+					</li>  
                     <li>
                         <a href="../logout.php"><i class="fa fa-fw fa-power-off"></i> LOGOUT</a>
                     </li>

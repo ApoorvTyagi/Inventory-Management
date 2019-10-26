@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!isset($_SESSION['name'])) {
+    echo "<script>alert('You need to login first');
+    window.location.href='../login.php';</script>";	
+}
 	$con=mysqli_connect("localhost","root","","fashion");
 	if($con)
 	{

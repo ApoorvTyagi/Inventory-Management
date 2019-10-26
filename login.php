@@ -23,7 +23,12 @@
 <body>
 
 <?php include 'includes/header.php';?>
-<?php include 'includes/navbar.php';?>
+<?php include 'includes/navbar.php';
+session_start();
+if(isset($_SESSION["name"])){
+	header('location: dashboard/');
+}	
+?>
 
 <?php
 
